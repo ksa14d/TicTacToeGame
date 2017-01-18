@@ -1,0 +1,26 @@
+﻿<Window x:Class="TicTac.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TicTacToe" Height="452" Width="700" ResizeMode="NoResize" Background="LemonChiffon" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid Margin="0,0,0,6">
+        <Button Name="btn_comment" Content="Comment" HorizontalAlignment="Left" Margin="390,50,0,0" VerticalAlignment="Top" Width="75" Click="btn_comment_Click"/>
+        <Button Name="btn_match" Content="Match" HorizontalAlignment="Left" Margin="296,50,0,0" VerticalAlignment="Top" Width="75" Click="btn_match_Click"/>
+        <Button Name="btn_stats" Content="Stats" HorizontalAlignment="Left" Margin="194,50,0,0" VerticalAlignment="Top" Width="75" Click="btn_stats_Click" />
+        <Button Name="btn_game" Content="Game" HorizontalAlignment="Left" Margin="83,106,0,0" VerticalAlignment="Top" Width="75" Click="btn_game_Click"/>
+        <Button Name="btn_help" Content="help" HorizontalAlignment="Left" Margin="390,106,0,0" VerticalAlignment="Top" Width="75" Click="btn_help_Click"/>
+        <Button Name="btn_que" Content="?" HorizontalAlignment="Left" Margin="296,106,0,0" VerticalAlignment="Top" Width="75" Click="btn_que_Click"/>
+        <Button Name="btn_mail" Content="Mail" HorizontalAlignment="Left" Margin="194,106,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.4,6.179" Click="btn_mail_Click"/>
+        <Button Name="btn_who" Content="Who" HorizontalAlignment="Left" Margin="83,50,0,0" VerticalAlignment="Top" Width="75" Click="btn_who_Click"/>
+        <Button Name="btn_quit" Content="Quit" HorizontalAlignment="Left" Margin="249,163,0,0" VerticalAlignment="Top" Width="75" Click="btn_quit_Click"/>
+        <CheckBox Name="cb_quiet" Content="Quiet" HorizontalAlignment="Left" Margin="510,55,0,0" VerticalAlignment="Top" Click="cb_quiet_Click"/>
+        <Button Name= "btn_login" Content="Login" HorizontalAlignment="Left" Margin="83,163,0,0" VerticalAlignment="Top" Width="75" Click="btn_login_Click"/>
+        <Button Name="btn_register" Content="Register" HorizontalAlignment="Left" Margin="390,163,0,0" VerticalAlignment="Top" Width="75" Click="btn_register_Click"/>
+        <Button x:Name="btn_block" Content="Block" HorizontalAlignment="Left" Margin="599,163,0,0" VerticalAlignment="Top" Width="75" Click="btn_block_Click"/>
+        <Button x:Name="btn_unblock" Content="Un Block" HorizontalAlignment="Left" Margin="510,163,0,0" VerticalAlignment="Top" Width="75" Click="btn_unblock_Click" RenderTransformOrigin="1,0.3"/>
+        <TextBox Name="tb_uname" HorizontalAlignment="Left" Height="23" Margin="599,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <Label Content="User Name :" HorizontalAlignment="Left" Margin="510,106,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox Name="tb_status" HorizontalAlignment="Left" Height="149" Margin="20,258,0,0" VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="654"/>
+        <Label Content="Notifications : " HorizontalAlignment="Left" Margin="30,227,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
